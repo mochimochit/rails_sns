@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'posts' => 'posts#post'
-  get 'postslist' => 'posts#postlist'
+  get 'postslist' => 'posts#postslist'
   get '/' => 'home#top'
   get 'login' => 'home#login'
   get 'profile' => 'home#profile'
